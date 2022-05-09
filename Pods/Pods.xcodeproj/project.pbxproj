@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05B990A7714396D6E19E7C50DAEBD6AF /* OverlaySnapshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA562BD20F2704B502B1FEB3F7BBFA1C /* OverlaySnapshotView.swift */; };
+		0745561DD7B69CAD6C9CD2AAFA3A8DDF /* CoachMarkBodyBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C1A1D2A6D3DB613EE4FC982898374B /* CoachMarkBodyBackgroundView.swift */; };
+		0B5A23E1651E2B0E8197FDCB9D277E9E /* MaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602DA8C896E4EDDDBDE51F9FD208859A /* MaskView.swift */; };
+		1822C7C2FD52484E2A7BDE4DB672D9FE /* CoachMarksControllerAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109E6A718B76F96F2B314ACABB2E447 /* CoachMarksControllerAnimationDelegate.swift */; };
+		1850FF195BB070A1539293C6958335EB /* CoachMarkBodyHighlightArrowDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C1E445B1BDB5A9CA4EA62F0DD1AB5 /* CoachMarkBodyHighlightArrowDelegate.swift */; };
+		2284340C1F352C97EFF83CD775B0915F /* TranslucentOverlayStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC2365CAD68EF7CF0CA359B476A4FB9 /* TranslucentOverlayStyleManager.swift */; };
+		22BBF594F01FA93FFD4193FF65BF93AF /* Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01700CFD4D3AE60C60F204E228EF9767 /* Instructions.swift */; };
+		2507ADF1FE6E11D15C76776372503F6B /* CoachMarksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0517E44A55C3DD5102CCC38D7012BE77 /* CoachMarksController.swift */; };
+		376D14D996CFCF5A89D816D1FD91409A /* CoachMarkBodyDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17CE2A5CA33A00CA2136343C267EF7D /* CoachMarkBodyDefaultView.swift */; };
+		3BBEF04E90D7495A0C3E27764356E3E0 /* FlowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F0BD96949FA725E2375DACF9696CE /* FlowManager.swift */; };
+		42C588396F1CA929466F5C68DF7166BE /* Pods-AppIntro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2289285E4417BA8C015C81F98A053450 /* Pods-AppIntro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43AF74A3352230EA91466C973AFF6B8D /* PassthroughViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084A816FCC7C56E4DCDDB7C3FD72C16F /* PassthroughViews.swift */; };
+		43F176FAFAF51B349D34A7A018922FE9 /* CoachMarkBackgroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8E81F3820EB87150112A3B8B8BFC3 /* CoachMarkBackgroundStyle.swift */; };
+		4D8C124FCF150574DF66EF91E17CAAF9 /* SkipViewDisplayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E94BAB58277A223AC24EABFA815668 /* SkipViewDisplayManager.swift */; };
+		4E3BBBAE18FED8DD4EC76F8E7CB0AB12 /* CoachMarkAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0BDD6C8514B76DBD2288FEA51A0187 /* CoachMarkAnimationManager.swift */; };
+		5C80DDB8247214B0CB15FAD9B04C63E8 /* BlurringOverlayStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88815305A405357C84F3570E7A435B0F /* BlurringOverlayStyleManager.swift */; };
+		60896F095DA7E025E65C20A8EB8408C3 /* CoachMarkPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A32023A8F38387483F9B406593BA8ED /* CoachMarkPosition.swift */; };
+		6229EC9984A65036BCE3D5CE399D6C38 /* CoachMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D835FCB5A0E5FC9AFA67329324231890 /* CoachMarkView.swift */; };
+		64A5A8AF6ECE2FA7AC911687B991C4E8 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE554695E17E55F19BEF676545F40725 /* OverlayView.swift */; };
+		6778EB5338753B5E822EAFFF6F05F865 /* CoachMarkComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5566D0D605CD78CD3B8FAB3F6459802 /* CoachMarkComponent.swift */; };
+		6A419C82EE64D2203A5368898E6BADFC /* CoachMarkArrowDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AEC034F290D8EC9C3FC19944F0212F /* CoachMarkArrowDefaultView.swift */; };
+		6A647C598A9A52615BDAAEA5A36E9016 /* CoachMarkSkipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60766C4CA2D6942697FFBA9EA040BABF /* CoachMarkSkipView.swift */; };
+		6C9BE46CBB86875F043EBDD4AEC733E2 /* CoachMarkArrowOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1B10E6B972656063A976EAA0914B84 /* CoachMarkArrowOrientation.swift */; };
+		6EB20EA518DF3769C75B3E03E0455F4D /* Instructions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54E77D2659373CF9C47E99EC6B4E59C9 /* Instructions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70EAEBF50854318C2B565FA5D426DD31 /* CoachMarkSkipDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E69DA5D99E547039538E536B20969DF /* CoachMarkSkipDefaultView.swift */; };
+		7411D464B39CABB280A3C4A3387C8513 /* CoachMarkLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC06765ADA4E58940FC4292C09B798 /* CoachMarkLayoutHelper.swift */; };
+		74B75834824D71E6FE9DC8EF678A660D /* CoachMarkTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82C60841862D70570FADB808CF32980 /* CoachMarkTransitionManager.swift */; };
+		7D6D2CE7AED46E7632A1CCFE115AD72B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7F0CFFF74385E9204225F26157CC4B76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7F4D48DF2655039B3ED63ED45721C30C /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B92E926C60B45783E357D6FC5198E90 /* ErrorMessage.swift */; };
+		86DE726DEFC576C69DA4F420022DB0FA /* Pods-AppIntro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D776BD977B93C0855A7ECF67CB35EA /* Pods-AppIntro-dummy.m */; };
+		89091C165E483323C8A4F49C2E014D54 /* CoachMarkAnimationManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE9EC9C0B8BD4CCE04B8B6FD9BBBBB0 /* CoachMarkAnimationManagement.swift */; };
+		891A7B76CF57773E2C1E823504C2C457 /* CoachMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B45B7E3668E175A9FF9351E94E2E37 /* CoachMark.swift */; };
+		90A80A2E1F3516B76F72AA8796143628 /* CoachMarksControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCD2CEF3C99FE7288E10125AD622879 /* CoachMarksControllerDataSource.swift */; };
+		99FC594642D2BFC23A6E03037938E47F /* ViewControllerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2E708133AD9F6A1E54A305A8DDC4AC /* ViewControllerConfiguration.swift */; };
+		9AEEEF3A55611A64A1AF8B89DFA0DB25 /* CoachMarkArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E6ED5C2E1E51BABCBD380A5213B9FE /* CoachMarkArrowView.swift */; };
+		A3C4C64D0F1A7CCB8E49EDD600CE11C8 /* CoachMarkDisplayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D867B80D84586D6DD6DD97E29DA81688 /* CoachMarkDisplayManager.swift */; };
+		A3C7C4742D2E235F292B89A0C2CB8CC3 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22613E502D1EFA9868EE250B3825F65D /* UIView+Layout.swift */; };
+		A4EBA596A108DCE4D2BC2F115FFAE375 /* AccessibilityIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD1BBD4C22C34B5DDF96B5E025FF20D /* AccessibilityIdentifiers.swift */; };
+		A9EFD62D135DD2358D49F977B4A8F605 /* CoachMarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AB5685D22A1CBD39D5E320767F53A6 /* CoachMarksViewController.swift */; };
+		AEDBB3A02A2A767A9C2C1751D6FCC45A /* Instructions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D656D28A5FD53E6C464E2738C2B0A4 /* Instructions-dummy.m */; };
+		B2952E2B1E082B41A60CA7A16298C8EF /* OverlayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159C97797F5126C67C0FDED7F29E3EB /* OverlayManager.swift */; };
+		BF3E6F7168049D867943947CBBFF1362 /* CoachMarkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494B99F4D370A5F05D5915E1E28C5EC5 /* CoachMarkHelper.swift */; };
+		C0BD5B0DF37B18EB3BA2FE0F84AA9E66 /* CoachMarkCoordinateConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B847720B6302029C92C4EE2D23DEF9AC /* CoachMarkCoordinateConverter.swift */; };
+		C0C7866FF9752870AD121385BE11041A /* CoachMarkViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518717CEB022A3D9D43C068BC465983E /* CoachMarkViewControllerDelegate.swift */; };
+		C30F1E99C4DE8E7B20FEFD15E033F221 /* CoachMarksControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C29E19F998028D49B61CFE06BAF62C2 /* CoachMarksControllerDelegate.swift */; };
+		C77A6C0772BB6F40EA65DE47C31FF77B /* ConfigurationChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0B0AB15713163A8F9A8F74A32E0CDD /* ConfigurationChange.swift */; };
+		CF9AE262D78F713EE0EAE13AEFB789BD /* CoachMarksController+Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F3FBA8E6CEE1C1FB1A2CADC49650EB /* CoachMarksController+Proxy.swift */; };
+		CFF7996E63C6AF19ABC7D438B5C2E2F5 /* UIApplication+WindowScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2D2FEA61FF2DE2EE2F97B286B11606 /* UIApplication+WindowScene.swift */; };
+		D8AA144C038714CAD4749F5A4688F608 /* PauseStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E340F0FDC0A79428C08B05359FF82E /* PauseStyle.swift */; };
+		DF401B81E277D7780BBAAA17066E7B0D /* CoachMarkBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D010F3704747FFF14FD13BCE96AAA88C /* CoachMarkBodyView.swift */; };
+		E8FB7E3AC34FCCEC33CFC2987D7F8E6E /* CoachMarkInnerLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1154112FE2F155CBBCC21E18EE5832C3 /* CoachMarkInnerLayoutHelper.swift */; };
+		F558B8E1637AB083278AB0BD80316F0A /* OverlayStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97735721088312B18612808841720261 /* OverlayStyleManager.swift */; };
+		FE5EE29C9658CC3CBDCFB8CD5133A4DD /* PresentationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAD347007AD03C8D87E7445AF927848 /* PresentationContext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A766E4BE37A3B2A9D4407E00D04E997A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97482FB5B78AAF68DDD9AC7CD1C3A456;
+			remoteInfo = Instructions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01700CFD4D3AE60C60F204E228EF9767 /* Instructions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Instructions.swift; path = Sources/Instructions/Instructions.swift; sourceTree = "<group>"; };
+		01AB5685D22A1CBD39D5E320767F53A6 /* CoachMarksViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarksViewController.swift; path = Sources/Instructions/Core/Internal/CoachMarksViewController.swift; sourceTree = "<group>"; };
+		04A29A534B63E60991D59CBC34FD33E3 /* Pods-AppIntro-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppIntro-acknowledgements.plist"; sourceTree = "<group>"; };
+		0517E44A55C3DD5102CCC38D7012BE77 /* CoachMarksController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarksController.swift; path = Sources/Instructions/Core/Public/CoachMarksController.swift; sourceTree = "<group>"; };
+		084A816FCC7C56E4DCDDB7C3FD72C16F /* PassthroughViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassthroughViews.swift; path = Sources/Instructions/Views/PassthroughViews.swift; sourceTree = "<group>"; };
+		1154112FE2F155CBBCC21E18EE5832C3 /* CoachMarkInnerLayoutHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkInnerLayoutHelper.swift; path = Sources/Instructions/Helpers/Internal/CoachMarkInnerLayoutHelper.swift; sourceTree = "<group>"; };
+		15F8DBD645C354EEC82BBF9330F74B8E /* Instructions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Instructions.modulemap; sourceTree = "<group>"; };
+		19D656D28A5FD53E6C464E2738C2B0A4 /* Instructions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Instructions-dummy.m"; sourceTree = "<group>"; };
+		1BCD2CEF3C99FE7288E10125AD622879 /* CoachMarksControllerDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarksControllerDataSource.swift; path = "Sources/Instructions/Protocols and Enums/Public/CoachMarksControllerDataSource.swift"; sourceTree = "<group>"; };
+		1C0BDD6C8514B76DBD2288FEA51A0187 /* CoachMarkAnimationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkAnimationManager.swift; path = "Sources/Instructions/Helpers/Public/CoachMark Animation/CoachMarkAnimationManager.swift"; sourceTree = "<group>"; };
+		1C22078EBCD4EA2D0BEA63674BE8FBF0 /* Instructions */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Instructions; path = Instructions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC2365CAD68EF7CF0CA359B476A4FB9 /* TranslucentOverlayStyleManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TranslucentOverlayStyleManager.swift; path = Sources/Instructions/Managers/Internal/OverlayStyleManager/TranslucentOverlayStyleManager.swift; sourceTree = "<group>"; };
+		21AEC034F290D8EC9C3FC19944F0212F /* CoachMarkArrowDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkArrowDefaultView.swift; path = "Sources/Instructions/Extra/Default Views/CoachMarkArrowDefaultView.swift"; sourceTree = "<group>"; };
+		22613E502D1EFA9868EE250B3825F65D /* UIView+Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Layout.swift"; path = "Sources/Instructions/Helpers/Internal/Extensions/UIView+Layout.swift"; sourceTree = "<group>"; };
+		2289285E4417BA8C015C81F98A053450 /* Pods-AppIntro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppIntro-umbrella.h"; sourceTree = "<group>"; };
+		238F0BD96949FA725E2375DACF9696CE /* FlowManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlowManager.swift; path = Sources/Instructions/Managers/Public/FlowManager.swift; sourceTree = "<group>"; };
+		26E94BAB58277A223AC24EABFA815668 /* SkipViewDisplayManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkipViewDisplayManager.swift; path = Sources/Instructions/Managers/Internal/SkipViewDisplayManager.swift; sourceTree = "<group>"; };
+		28F3FBA8E6CEE1C1FB1A2CADC49650EB /* CoachMarksController+Proxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CoachMarksController+Proxy.swift"; path = "Sources/Instructions/Core/Public/Extensions/CoachMarksController+Proxy.swift"; sourceTree = "<group>"; };
+		29E85B69AFF18E1AEA9FBC31E7538377 /* Pods-AppIntro-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppIntro-Info.plist"; sourceTree = "<group>"; };
+		2E2D2FEA61FF2DE2EE2F97B286B11606 /* UIApplication+WindowScene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+WindowScene.swift"; path = "Sources/Instructions/Helpers/Internal/Extensions/UIApplication+WindowScene.swift"; sourceTree = "<group>"; };
+		2FFB5745A8D527A7169E8F1D14458D17 /* Pods-AppIntro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppIntro.debug.xcconfig"; sourceTree = "<group>"; };
+		3FBE55D8EDED841E7819F89AE7125B98 /* Pods-AppIntro */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AppIntro"; path = Pods_AppIntro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4109E6A718B76F96F2B314ACABB2E447 /* CoachMarksControllerAnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarksControllerAnimationDelegate.swift; path = "Sources/Instructions/Protocols and Enums/Public/Delegates/CoachMarksControllerAnimationDelegate.swift"; sourceTree = "<group>"; };
+		43EE73F0E47AF8D789054FA6B080A132 /* Instructions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Instructions-prefix.pch"; sourceTree = "<group>"; };
+		44B45B7E3668E175A9FF9351E94E2E37 /* CoachMark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMark.swift; path = Sources/Instructions/Core/Public/CoachMark.swift; sourceTree = "<group>"; };
+		494B99F4D370A5F05D5915E1E28C5EC5 /* CoachMarkHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkHelper.swift; path = Sources/Instructions/Helpers/Public/CoachMarkHelper.swift; sourceTree = "<group>"; };
+		4B0B0AB15713163A8F9A8F74A32E0CDD /* ConfigurationChange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfigurationChange.swift; path = "Sources/Instructions/Protocols and Enums/Public/Enums/ConfigurationChange.swift"; sourceTree = "<group>"; };
+		4B92E926C60B45783E357D6FC5198E90 /* ErrorMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorMessage.swift; path = Sources/Instructions/Helpers/Internal/ErrorMessage.swift; sourceTree = "<group>"; };
+		4CCD13762B7F02DD52CCD1B9E43237BA /* Pods-AppIntro-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppIntro-frameworks.sh"; sourceTree = "<group>"; };
+		518717CEB022A3D9D43C068BC465983E /* CoachMarkViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkViewControllerDelegate.swift; path = "Sources/Instructions/Protocols and Enums/Internal/CoachMarkViewControllerDelegate.swift"; sourceTree = "<group>"; };
+		54E77D2659373CF9C47E99EC6B4E59C9 /* Instructions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Instructions-umbrella.h"; sourceTree = "<group>"; };
+		5A2E708133AD9F6A1E54A305A8DDC4AC /* ViewControllerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewControllerConfiguration.swift; path = "Sources/Instructions/Protocols and Enums/Public/Enums/ViewControllerConfiguration.swift"; sourceTree = "<group>"; };
+		5A32023A8F38387483F9B406593BA8ED /* CoachMarkPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkPosition.swift; path = Sources/Instructions/Helpers/Internal/Enums/CoachMarkPosition.swift; sourceTree = "<group>"; };
+		602DA8C896E4EDDDBDE51F9FD208859A /* MaskView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaskView.swift; path = Sources/Instructions/Views/MaskView.swift; sourceTree = "<group>"; };
+		60766C4CA2D6942697FFBA9EA040BABF /* CoachMarkSkipView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkSkipView.swift; path = "Sources/Instructions/Protocols and Enums/Public/CoachMarkSkipView.swift"; sourceTree = "<group>"; };
+		64E340F0FDC0A79428C08B05359FF82E /* PauseStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PauseStyle.swift; path = "Sources/Instructions/Protocols and Enums/Public/Enums/PauseStyle.swift"; sourceTree = "<group>"; };
+		6C29E19F998028D49B61CFE06BAF62C2 /* CoachMarksControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarksControllerDelegate.swift; path = "Sources/Instructions/Protocols and Enums/Public/Delegates/CoachMarksControllerDelegate.swift"; sourceTree = "<group>"; };
+		6E69DA5D99E547039538E536B20969DF /* CoachMarkSkipDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkSkipDefaultView.swift; path = "Sources/Instructions/Extra/Default Views/CoachMarkSkipDefaultView.swift"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C1B10E6B972656063A976EAA0914B84 /* CoachMarkArrowOrientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkArrowOrientation.swift; path = Sources/Instructions/Helpers/Public/Enums/CoachMarkArrowOrientation.swift; sourceTree = "<group>"; };
+		7E7FA2E42040DE5D3E65182A120898A5 /* Instructions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Instructions.debug.xcconfig; sourceTree = "<group>"; };
+		80D776BD977B93C0855A7ECF67CB35EA /* Pods-AppIntro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppIntro-dummy.m"; sourceTree = "<group>"; };
+		86A27150C1ACC3B5539115F77B06FE07 /* Pods-AppIntro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppIntro.release.xcconfig"; sourceTree = "<group>"; };
+		86A64CBE16BFAE3CB8FB0171DE881725 /* Instructions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Instructions-Info.plist"; sourceTree = "<group>"; };
+		88815305A405357C84F3570E7A435B0F /* BlurringOverlayStyleManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurringOverlayStyleManager.swift; path = Sources/Instructions/Managers/Internal/OverlayStyleManager/BlurringOverlayStyleManager.swift; sourceTree = "<group>"; };
+		8A6B57CF819FE56A49074C807B677B0D /* Pods-AppIntro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppIntro.modulemap"; sourceTree = "<group>"; };
+		8DCC06765ADA4E58940FC4292C09B798 /* CoachMarkLayoutHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkLayoutHelper.swift; path = Sources/Instructions/Helpers/Internal/CoachMarkLayoutHelper.swift; sourceTree = "<group>"; };
+		97735721088312B18612808841720261 /* OverlayStyleManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlayStyleManager.swift; path = Sources/Instructions/Managers/Internal/OverlayStyleManager/OverlayStyleManager.swift; sourceTree = "<group>"; };
+		98E6ED5C2E1E51BABCBD380A5213B9FE /* CoachMarkArrowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkArrowView.swift; path = "Sources/Instructions/Protocols and Enums/Public/CoachMarkArrowView.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5566D0D605CD78CD3B8FAB3F6459802 /* CoachMarkComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkComponent.swift; path = Sources/Instructions/Extra/Internal/CoachMarkComponent.swift; sourceTree = "<group>"; };
+		B82C60841862D70570FADB808CF32980 /* CoachMarkTransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkTransitionManager.swift; path = "Sources/Instructions/Helpers/Public/CoachMark Animation/CoachMarkTransitionManager.swift"; sourceTree = "<group>"; };
+		B847720B6302029C92C4EE2D23DEF9AC /* CoachMarkCoordinateConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkCoordinateConverter.swift; path = Sources/Instructions/Helpers/Public/CoachMarkCoordinateConverter.swift; sourceTree = "<group>"; };
+		BA562BD20F2704B502B1FEB3F7BBFA1C /* OverlaySnapshotView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlaySnapshotView.swift; path = Sources/Instructions/Views/OverlaySnapshotView.swift; sourceTree = "<group>"; };
+		C61C1E445B1BDB5A9CA4EA62F0DD1AB5 /* CoachMarkBodyHighlightArrowDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkBodyHighlightArrowDelegate.swift; path = "Sources/Instructions/Protocols and Enums/Public/CoachMarkBodyHighlightArrowDelegate.swift"; sourceTree = "<group>"; };
+		C8C1A1D2A6D3DB613EE4FC982898374B /* CoachMarkBodyBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkBodyBackgroundView.swift; path = Sources/Instructions/Extra/Internal/CoachMarkBodyBackgroundView.swift; sourceTree = "<group>"; };
+		CBAD347007AD03C8D87E7445AF927848 /* PresentationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationContext.swift; path = "Sources/Instructions/Protocols and Enums/Public/Enums/PresentationContext.swift"; sourceTree = "<group>"; };
+		CDD1BBD4C22C34B5DDF96B5E025FF20D /* AccessibilityIdentifiers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessibilityIdentifiers.swift; path = Sources/Instructions/Helpers/Internal/AccessibilityIdentifiers.swift; sourceTree = "<group>"; };
+		D010F3704747FFF14FD13BCE96AAA88C /* CoachMarkBodyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkBodyView.swift; path = "Sources/Instructions/Protocols and Enums/Public/CoachMarkBodyView.swift"; sourceTree = "<group>"; };
+		D159C97797F5126C67C0FDED7F29E3EB /* OverlayManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlayManager.swift; path = Sources/Instructions/Managers/Public/OverlayManager.swift; sourceTree = "<group>"; };
+		D17CE2A5CA33A00CA2136343C267EF7D /* CoachMarkBodyDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkBodyDefaultView.swift; path = "Sources/Instructions/Extra/Default Views/CoachMarkBodyDefaultView.swift"; sourceTree = "<group>"; };
+		D835FCB5A0E5FC9AFA67329324231890 /* CoachMarkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkView.swift; path = Sources/Instructions/Views/CoachMarkView.swift; sourceTree = "<group>"; };
+		D867B80D84586D6DD6DD97E29DA81688 /* CoachMarkDisplayManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkDisplayManager.swift; path = Sources/Instructions/Managers/Internal/CoachMarkDisplayManager.swift; sourceTree = "<group>"; };
+		DBB8E81F3820EB87150112A3B8B8BFC3 /* CoachMarkBackgroundStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkBackgroundStyle.swift; path = "Sources/Instructions/Extra/Default Views/CoachMarkBackgroundStyle.swift"; sourceTree = "<group>"; };
+		DE554695E17E55F19BEF676545F40725 /* OverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlayView.swift; path = Sources/Instructions/Views/OverlayView.swift; sourceTree = "<group>"; };
+		EEE9EC9C0B8BD4CCE04B8B6FD9BBBBB0 /* CoachMarkAnimationManagement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkAnimationManagement.swift; path = "Sources/Instructions/Helpers/Public/CoachMark Animation/CoachMarkAnimationManagement.swift"; sourceTree = "<group>"; };
+		F25AEE048DACA2B786D10262EC4D23F9 /* Instructions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Instructions.release.xcconfig; sourceTree = "<group>"; };
+		F564D9D204C6EE5EFFD1F281FA262FB8 /* Pods-AppIntro-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppIntro-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E6B72A12E5D3ACABA72B40E2A124400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F0CFFF74385E9204225F26157CC4B76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8A6D6D904812041C664478123DB8C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6D2CE7AED46E7632A1CCFE115AD72B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FECD927A28060CCCE99A551A910EF85 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15F8DBD645C354EEC82BBF9330F74B8E /* Instructions.modulemap */,
+				19D656D28A5FD53E6C464E2738C2B0A4 /* Instructions-dummy.m */,
+				86A64CBE16BFAE3CB8FB0171DE881725 /* Instructions-Info.plist */,
+				43EE73F0E47AF8D789054FA6B080A132 /* Instructions-prefix.pch */,
+				54E77D2659373CF9C47E99EC6B4E59C9 /* Instructions-umbrella.h */,
+				7E7FA2E42040DE5D3E65182A120898A5 /* Instructions.debug.xcconfig */,
+				F25AEE048DACA2B786D10262EC4D23F9 /* Instructions.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Instructions";
+			sourceTree = "<group>";
+		};
+		46163D6336C9BCD704FA898974BA4A2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C22078EBCD4EA2D0BEA63674BE8FBF0 /* Instructions */,
+				3FBE55D8EDED841E7819F89AE7125B98 /* Pods-AppIntro */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6771241E3637CAA704E9D7B983CAF075 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FCC44332CB7E77AB4EDC5B7C804C78C /* Instructions */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6FCC44332CB7E77AB4EDC5B7C804C78C /* Instructions */ = {
+			isa = PBXGroup;
+			children = (
+				CDD1BBD4C22C34B5DDF96B5E025FF20D /* AccessibilityIdentifiers.swift */,
+				88815305A405357C84F3570E7A435B0F /* BlurringOverlayStyleManager.swift */,
+				44B45B7E3668E175A9FF9351E94E2E37 /* CoachMark.swift */,
+				EEE9EC9C0B8BD4CCE04B8B6FD9BBBBB0 /* CoachMarkAnimationManagement.swift */,
+				1C0BDD6C8514B76DBD2288FEA51A0187 /* CoachMarkAnimationManager.swift */,
+				21AEC034F290D8EC9C3FC19944F0212F /* CoachMarkArrowDefaultView.swift */,
+				7C1B10E6B972656063A976EAA0914B84 /* CoachMarkArrowOrientation.swift */,
+				98E6ED5C2E1E51BABCBD380A5213B9FE /* CoachMarkArrowView.swift */,
+				DBB8E81F3820EB87150112A3B8B8BFC3 /* CoachMarkBackgroundStyle.swift */,
+				C8C1A1D2A6D3DB613EE4FC982898374B /* CoachMarkBodyBackgroundView.swift */,
+				D17CE2A5CA33A00CA2136343C267EF7D /* CoachMarkBodyDefaultView.swift */,
+				C61C1E445B1BDB5A9CA4EA62F0DD1AB5 /* CoachMarkBodyHighlightArrowDelegate.swift */,
+				D010F3704747FFF14FD13BCE96AAA88C /* CoachMarkBodyView.swift */,
+				B5566D0D605CD78CD3B8FAB3F6459802 /* CoachMarkComponent.swift */,
+				B847720B6302029C92C4EE2D23DEF9AC /* CoachMarkCoordinateConverter.swift */,
+				D867B80D84586D6DD6DD97E29DA81688 /* CoachMarkDisplayManager.swift */,
+				494B99F4D370A5F05D5915E1E28C5EC5 /* CoachMarkHelper.swift */,
+				1154112FE2F155CBBCC21E18EE5832C3 /* CoachMarkInnerLayoutHelper.swift */,
+				8DCC06765ADA4E58940FC4292C09B798 /* CoachMarkLayoutHelper.swift */,
+				5A32023A8F38387483F9B406593BA8ED /* CoachMarkPosition.swift */,
+				0517E44A55C3DD5102CCC38D7012BE77 /* CoachMarksController.swift */,
+				28F3FBA8E6CEE1C1FB1A2CADC49650EB /* CoachMarksController+Proxy.swift */,
+				4109E6A718B76F96F2B314ACABB2E447 /* CoachMarksControllerAnimationDelegate.swift */,
+				1BCD2CEF3C99FE7288E10125AD622879 /* CoachMarksControllerDataSource.swift */,
+				6C29E19F998028D49B61CFE06BAF62C2 /* CoachMarksControllerDelegate.swift */,
+				6E69DA5D99E547039538E536B20969DF /* CoachMarkSkipDefaultView.swift */,
+				60766C4CA2D6942697FFBA9EA040BABF /* CoachMarkSkipView.swift */,
+				01AB5685D22A1CBD39D5E320767F53A6 /* CoachMarksViewController.swift */,
+				B82C60841862D70570FADB808CF32980 /* CoachMarkTransitionManager.swift */,
+				D835FCB5A0E5FC9AFA67329324231890 /* CoachMarkView.swift */,
+				518717CEB022A3D9D43C068BC465983E /* CoachMarkViewControllerDelegate.swift */,
+				4B0B0AB15713163A8F9A8F74A32E0CDD /* ConfigurationChange.swift */,
+				4B92E926C60B45783E357D6FC5198E90 /* ErrorMessage.swift */,
+				238F0BD96949FA725E2375DACF9696CE /* FlowManager.swift */,
+				01700CFD4D3AE60C60F204E228EF9767 /* Instructions.swift */,
+				602DA8C896E4EDDDBDE51F9FD208859A /* MaskView.swift */,
+				D159C97797F5126C67C0FDED7F29E3EB /* OverlayManager.swift */,
+				BA562BD20F2704B502B1FEB3F7BBFA1C /* OverlaySnapshotView.swift */,
+				97735721088312B18612808841720261 /* OverlayStyleManager.swift */,
+				DE554695E17E55F19BEF676545F40725 /* OverlayView.swift */,
+				084A816FCC7C56E4DCDDB7C3FD72C16F /* PassthroughViews.swift */,
+				64E340F0FDC0A79428C08B05359FF82E /* PauseStyle.swift */,
+				CBAD347007AD03C8D87E7445AF927848 /* PresentationContext.swift */,
+				26E94BAB58277A223AC24EABFA815668 /* SkipViewDisplayManager.swift */,
+				1DC2365CAD68EF7CF0CA359B476A4FB9 /* TranslucentOverlayStyleManager.swift */,
+				2E2D2FEA61FF2DE2EE2F97B286B11606 /* UIApplication+WindowScene.swift */,
+				22613E502D1EFA9868EE250B3825F65D /* UIView+Layout.swift */,
+				5A2E708133AD9F6A1E54A305A8DDC4AC /* ViewControllerConfiguration.swift */,
+				1FECD927A28060CCCE99A551A910EF85 /* Support Files */,
+			);
+			name = Instructions;
+			path = Instructions;
+			sourceTree = "<group>";
+		};
+		A3D843319D777CFC832B4A3BF740B002 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC8D64178598048596D62B2DBAB56CAC /* Pods-AppIntro */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC8D64178598048596D62B2DBAB56CAC /* Pods-AppIntro */ = {
+			isa = PBXGroup;
+			children = (
+				8A6B57CF819FE56A49074C807B677B0D /* Pods-AppIntro.modulemap */,
+				F564D9D204C6EE5EFFD1F281FA262FB8 /* Pods-AppIntro-acknowledgements.markdown */,
+				04A29A534B63E60991D59CBC34FD33E3 /* Pods-AppIntro-acknowledgements.plist */,
+				80D776BD977B93C0855A7ECF67CB35EA /* Pods-AppIntro-dummy.m */,
+				4CCD13762B7F02DD52CCD1B9E43237BA /* Pods-AppIntro-frameworks.sh */,
+				29E85B69AFF18E1AEA9FBC31E7538377 /* Pods-AppIntro-Info.plist */,
+				2289285E4417BA8C015C81F98A053450 /* Pods-AppIntro-umbrella.h */,
+				2FFB5745A8D527A7169E8F1D14458D17 /* Pods-AppIntro.debug.xcconfig */,
+				86A27150C1ACC3B5539115F77B06FE07 /* Pods-AppIntro.release.xcconfig */,
+			);
+			name = "Pods-AppIntro";
+			path = "Target Support Files/Pods-AppIntro";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6771241E3637CAA704E9D7B983CAF075 /* Pods */,
+				46163D6336C9BCD704FA898974BA4A2A /* Products */,
+				A3D843319D777CFC832B4A3BF740B002 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3569FD0D5D2A65E4499719922AC998AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB20EA518DF3769C75B3E03E0455F4D /* Instructions-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A252D43BE9E473F8C6836BC26FA87CD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C588396F1CA929466F5C68DF7166BE /* Pods-AppIntro-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		97482FB5B78AAF68DDD9AC7CD1C3A456 /* Instructions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37854D28FA95E99D6BADB3DA0C75F8AB /* Build configuration list for PBXNativeTarget "Instructions" */;
+			buildPhases = (
+				3569FD0D5D2A65E4499719922AC998AA /* Headers */,
+				66786114D805B836D3C90E492AC4966D /* Sources */,
+				6E6B72A12E5D3ACABA72B40E2A124400 /* Frameworks */,
+				32A045F999D27A029D9B50B0EABD9D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instructions;
+			productName = Instructions;
+			productReference = 1C22078EBCD4EA2D0BEA63674BE8FBF0 /* Instructions */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFD1320EBB6CE9BF6AB750C5AE4B672D /* Pods-AppIntro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBFB5084AD8952FD2545A234A4A3F2A /* Build configuration list for PBXNativeTarget "Pods-AppIntro" */;
+			buildPhases = (
+				A252D43BE9E473F8C6836BC26FA87CD4 /* Headers */,
+				6FC21CA289F39713850CDD593E72B365 /* Sources */,
+				9F8A6D6D904812041C664478123DB8C7 /* Frameworks */,
+				E1EEB03744DA9D8E405BE54AD6C2CC15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				656D60D2F5FE1AEC329573EF7805D1CA /* PBXTargetDependency */,
+			);
+			name = "Pods-AppIntro";
+			productName = Pods_AppIntro;
+			productReference = 3FBE55D8EDED841E7819F89AE7125B98 /* Pods-AppIntro */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 46163D6336C9BCD704FA898974BA4A2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97482FB5B78AAF68DDD9AC7CD1C3A456 /* Instructions */,
+				CFD1320EBB6CE9BF6AB750C5AE4B672D /* Pods-AppIntro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32A045F999D27A029D9B50B0EABD9D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1EEB03744DA9D8E405BE54AD6C2CC15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66786114D805B836D3C90E492AC4966D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EBA596A108DCE4D2BC2F115FFAE375 /* AccessibilityIdentifiers.swift in Sources */,
+				5C80DDB8247214B0CB15FAD9B04C63E8 /* BlurringOverlayStyleManager.swift in Sources */,
+				891A7B76CF57773E2C1E823504C2C457 /* CoachMark.swift in Sources */,
+				89091C165E483323C8A4F49C2E014D54 /* CoachMarkAnimationManagement.swift in Sources */,
+				4E3BBBAE18FED8DD4EC76F8E7CB0AB12 /* CoachMarkAnimationManager.swift in Sources */,
+				6A419C82EE64D2203A5368898E6BADFC /* CoachMarkArrowDefaultView.swift in Sources */,
+				6C9BE46CBB86875F043EBDD4AEC733E2 /* CoachMarkArrowOrientation.swift in Sources */,
+				9AEEEF3A55611A64A1AF8B89DFA0DB25 /* CoachMarkArrowView.swift in Sources */,
+				43F176FAFAF51B349D34A7A018922FE9 /* CoachMarkBackgroundStyle.swift in Sources */,
+				0745561DD7B69CAD6C9CD2AAFA3A8DDF /* CoachMarkBodyBackgroundView.swift in Sources */,
+				376D14D996CFCF5A89D816D1FD91409A /* CoachMarkBodyDefaultView.swift in Sources */,
+				1850FF195BB070A1539293C6958335EB /* CoachMarkBodyHighlightArrowDelegate.swift in Sources */,
+				DF401B81E277D7780BBAAA17066E7B0D /* CoachMarkBodyView.swift in Sources */,
+				6778EB5338753B5E822EAFFF6F05F865 /* CoachMarkComponent.swift in Sources */,
+				C0BD5B0DF37B18EB3BA2FE0F84AA9E66 /* CoachMarkCoordinateConverter.swift in Sources */,
+				A3C4C64D0F1A7CCB8E49EDD600CE11C8 /* CoachMarkDisplayManager.swift in Sources */,
+				BF3E6F7168049D867943947CBBFF1362 /* CoachMarkHelper.swift in Sources */,
+				E8FB7E3AC34FCCEC33CFC2987D7F8E6E /* CoachMarkInnerLayoutHelper.swift in Sources */,
+				7411D464B39CABB280A3C4A3387C8513 /* CoachMarkLayoutHelper.swift in Sources */,
+				60896F095DA7E025E65C20A8EB8408C3 /* CoachMarkPosition.swift in Sources */,
+				2507ADF1FE6E11D15C76776372503F6B /* CoachMarksController.swift in Sources */,
+				CF9AE262D78F713EE0EAE13AEFB789BD /* CoachMarksController+Proxy.swift in Sources */,
+				1822C7C2FD52484E2A7BDE4DB672D9FE /* CoachMarksControllerAnimationDelegate.swift in Sources */,
+				90A80A2E1F3516B76F72AA8796143628 /* CoachMarksControllerDataSource.swift in Sources */,
+				C30F1E99C4DE8E7B20FEFD15E033F221 /* CoachMarksControllerDelegate.swift in Sources */,
+				70EAEBF50854318C2B565FA5D426DD31 /* CoachMarkSkipDefaultView.swift in Sources */,
+				6A647C598A9A52615BDAAEA5A36E9016 /* CoachMarkSkipView.swift in Sources */,
+				A9EFD62D135DD2358D49F977B4A8F605 /* CoachMarksViewController.swift in Sources */,
+				74B75834824D71E6FE9DC8EF678A660D /* CoachMarkTransitionManager.swift in Sources */,
+				6229EC9984A65036BCE3D5CE399D6C38 /* CoachMarkView.swift in Sources */,
+				C0C7866FF9752870AD121385BE11041A /* CoachMarkViewControllerDelegate.swift in Sources */,
+				C77A6C0772BB6F40EA65DE47C31FF77B /* ConfigurationChange.swift in Sources */,
+				7F4D48DF2655039B3ED63ED45721C30C /* ErrorMessage.swift in Sources */,
+				3BBEF04E90D7495A0C3E27764356E3E0 /* FlowManager.swift in Sources */,
+				22BBF594F01FA93FFD4193FF65BF93AF /* Instructions.swift in Sources */,
+				AEDBB3A02A2A767A9C2C1751D6FCC45A /* Instructions-dummy.m in Sources */,
+				0B5A23E1651E2B0E8197FDCB9D277E9E /* MaskView.swift in Sources */,
+				B2952E2B1E082B41A60CA7A16298C8EF /* OverlayManager.swift in Sources */,
+				05B990A7714396D6E19E7C50DAEBD6AF /* OverlaySnapshotView.swift in Sources */,
+				F558B8E1637AB083278AB0BD80316F0A /* OverlayStyleManager.swift in Sources */,
+				64A5A8AF6ECE2FA7AC911687B991C4E8 /* OverlayView.swift in Sources */,
+				43AF74A3352230EA91466C973AFF6B8D /* PassthroughViews.swift in Sources */,
+				D8AA144C038714CAD4749F5A4688F608 /* PauseStyle.swift in Sources */,
+				FE5EE29C9658CC3CBDCFB8CD5133A4DD /* PresentationContext.swift in Sources */,
+				4D8C124FCF150574DF66EF91E17CAAF9 /* SkipViewDisplayManager.swift in Sources */,
+				2284340C1F352C97EFF83CD775B0915F /* TranslucentOverlayStyleManager.swift in Sources */,
+				CFF7996E63C6AF19ABC7D438B5C2E2F5 /* UIApplication+WindowScene.swift in Sources */,
+				A3C7C4742D2E235F292B89A0C2CB8CC3 /* UIView+Layout.swift in Sources */,
+				99FC594642D2BFC23A6E03037938E47F /* ViewControllerConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC21CA289F39713850CDD593E72B365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86DE726DEFC576C69DA4F420022DB0FA /* Pods-AppIntro-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		656D60D2F5FE1AEC329573EF7805D1CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Instructions;
+			target = 97482FB5B78AAF68DDD9AC7CD1C3A456 /* Instructions */;
+			targetProxy = A766E4BE37A3B2A9D4407E00D04E997A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2214211F1F304F82EF54EEBE8706478C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86A27150C1ACC3B5539115F77B06FE07 /* Pods-AppIntro.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppIntro/Pods-AppIntro-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppIntro/Pods-AppIntro.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		420323DDCFA80847D8BF12F3CC772C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FFB5745A8D527A7169E8F1D14458D17 /* Pods-AppIntro.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AppIntro/Pods-AppIntro-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AppIntro/Pods-AppIntro.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		737F8B652A411FC8C2E17146AE116778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7FA2E42040DE5D3E65182A120898A5 /* Instructions.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Instructions/Instructions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Instructions/Instructions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Instructions/Instructions.modulemap";
+				PRODUCT_MODULE_NAME = Instructions;
+				PRODUCT_NAME = Instructions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		750FFF8035D9D30FC37B4A75607623BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F25AEE048DACA2B786D10262EC4D23F9 /* Instructions.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Instructions/Instructions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Instructions/Instructions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Instructions/Instructions.modulemap";
+				PRODUCT_MODULE_NAME = Instructions;
+				PRODUCT_NAME = Instructions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37854D28FA95E99D6BADB3DA0C75F8AB /* Build configuration list for PBXNativeTarget "Instructions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737F8B652A411FC8C2E17146AE116778 /* Debug */,
+				750FFF8035D9D30FC37B4A75607623BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBBFB5084AD8952FD2545A234A4A3F2A /* Build configuration list for PBXNativeTarget "Pods-AppIntro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420323DDCFA80847D8BF12F3CC772C6F /* Debug */,
+				2214211F1F304F82EF54EEBE8706478C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
